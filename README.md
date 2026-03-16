@@ -12,7 +12,33 @@ A lightweight CLI bot that scans public EVE Swagger Interface (ESI) market data 
   - hauling/risk cost
 - Ranks and prints the top opportunities.
 
-## Quick start
+## Microsoft Windows version
+
+This repository includes a native Windows launcher:
+
+- `run_plex_arbitrage_bot.bat`
+
+It prefers `py -3` and falls back to `python` automatically.
+
+### Windows quick start (Command Prompt)
+
+```bat
+run_plex_arbitrage_bot.bat
+```
+
+### Windows watch mode
+
+```bat
+run_plex_arbitrage_bot.bat --watch 60
+```
+
+### Windows custom regions
+
+```bat
+run_plex_arbitrage_bot.bat --regions "10000002:Jita,10000043:Amarr,10000032:Dodixie"
+```
+
+## Cross-platform quick start (Linux/macOS/WSL)
 
 ```bash
 python3 plex_arbitrage_bot.py
